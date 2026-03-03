@@ -10,27 +10,27 @@ A Python command-line application that lets administrators manage users, project
 ```
 project_manager/
 │
-├── main.py              ← Entry point — run all commands from here
-├── Pipfile              ← Pipenv dependency manager
-├── requirements.txt     ← pip dependency list
+├── main.py              Entry point — run all commands from here
+├── Pipfile              Pipenv dependency manager
+├── requirements.txt      pip dependency list
 │
-├── models/              ← Class definitions (OOP)
+├── models/              Class definitions 
 │   ├── __init__.py
-│   ├── user.py          ← Person base class + User class (inheritance)
-│   ├── project.py       ← Project class
-│   └── task.py          ← Task class
+│   ├── user.py          Person base class + User class 
+│   ├── project.py       Project class
+│   └── task.py          Task class
 │
-├── utils/               ← Helper/utility functions
+├── utils/               Helper/utility functions
 │   ├── __init__.py
-│   ├── file_io.py       ← Save and load data as JSON
-│   └── helpers.py       ← Table display, search, date validation
+│   ├── file_io.py       Save and load data as JSON
+│   └── helpers.py       Table display, search, date validation
 │
-├── data/                ← Auto-created on first run
-│   └── data.json        ← All persisted data lives here
+├── data/                Auto-created on first run
+│   └── data.json        All persisted data lives here
 │
-└── tests/               ← Unit tests
-    ├── test_models.py   ← Tests for User, Project, Task classes
-    └── test_cli.py      ← Tests for CLI handler functions
+└── tests/               Unit tests
+    ├── test_models.py   Tests for User, Project, Task classes
+    └── test_cli.py      Tests for CLI handler functions
 ```
 
 ---
