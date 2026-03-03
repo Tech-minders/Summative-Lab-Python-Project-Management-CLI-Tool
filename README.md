@@ -55,9 +55,6 @@ git clone
 pip install -r requirements.txt
 ```
 
-
-```
-
 ### 4. Verify the install worked
 
 ```bash
@@ -195,7 +192,7 @@ There are two test files:
 
 ---
 
-## ⚠ Known Issues
+## Known Issues
 
 - No delete command yet — to remove a user, project, or task you need to edit `data/data.json` manually
 - Project titles must be unique across all users 
